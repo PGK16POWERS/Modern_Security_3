@@ -1,8 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.ModernSercurity3" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.ModernSercurity3" parent="Theme.Design.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:fontFamily">@font/poppins_regular</item>
     </style>
 
     <style name="Theme.ModernSercurity3" parent="Base.Theme.ModernSercurity3" />
