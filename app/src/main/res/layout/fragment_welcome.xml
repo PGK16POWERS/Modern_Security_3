@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@drawable/temp_bg"
     tools:context=".Welcome">
 
     <LinearLayout
@@ -19,22 +19,42 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@drawable/no_bg_logo" />
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/white_marj" />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_vertical"
+        android:gravity="center"
         android:orientation="vertical"
         android:paddingTop="20dp"
         android:paddingBottom="26dp"
+        android:background="@drawable/content_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="@string/find_local"
+            android:textColor="#7F0308"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:textColor="#F77B80"
+            android:text="@string/get_involved"
+            android:textAlignment="center"
+            android:fontFamily="@font/poppins_medium"
+
 
 
     </LinearLayout>
