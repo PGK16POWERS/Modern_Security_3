@@ -3,7 +3,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="find_local">Find Local Events near you</string>
-    <string name="get_involved">Get involved with what's happening near you.</string>
+    <string name="get_involved">Get involved with what\'s happening near you.</string>
     <string name="get_started">Get started</string>
     <string name="login">Login</string>
     <string name="email_address">Email address</string>

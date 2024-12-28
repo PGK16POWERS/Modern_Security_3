@@ -12,7 +12,10 @@
         android:layout_height="wrap_content"
         android:gravity="start"
         android:orientation="horizontal"
-        android:padding="10dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,6 +35,8 @@
         android:orientation="vertical"
         android:paddingTop="20dp"
         android:paddingBottom="26dp"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
         android:background="@drawable/content_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,18 +47,29 @@
             android:layout_height="wrap_content"
             android:text="@string/find_local"
             android:textColor="#7F0308"
-            android:textSize="30sp"
+            android:textSize="28sp"
+            android:letterSpacing="-0.01"
             android:textAlignment="center"
-            android:fontFamily="@font/poppins_semibold"
-            android:layout_marginBottom="10dp"/>
+            android:fontFamily="@font/poppins_semibold"/>
 
         <TextView
-            android:layout_width="280dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:textColor="#F77B80"
             android:text="@string/get_involved"
             android:textAlignment="center"
+            android:fontFamily="@font/poppins_medium"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/primary_button"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:text="@string/get_started"
+            android:layout_marginTop="20dp"
             android:fontFamily="@font/poppins_medium"
+            android:textAllCaps="false"/>
 
 
 
