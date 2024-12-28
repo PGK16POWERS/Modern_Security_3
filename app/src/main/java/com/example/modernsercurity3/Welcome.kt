@@ -15,6 +15,8 @@ class Welcome : Fragment() {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_welcome, container, false)
 
+        val button = view.findViewById<Button>(R.id.)
+
         return view
     }
 
