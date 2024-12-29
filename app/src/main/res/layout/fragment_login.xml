@@ -55,6 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
+            android:layout_marginBottom="16dp"
             android:gravity="start">
 
             <TextView
@@ -80,6 +81,7 @@
                     android:paddingEnd="10dp"
                     android:elegantTextHeight="true"
                     android:hint="@string/enter_email"
+                    android:inputType="textEmailAddress"
                     android:textColorHint="#B19292"
                     android:fontFamily="@font/poppins_medium"/>
 
@@ -95,6 +97,133 @@
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
                 android:background="@drawable/input_line"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            android:gravity="start">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/password"
+                android:textColor="#7F0308"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="18sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="start|center"
+                android:weightSum="10">
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="9"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:elegantTextHeight="true"
+                    android:hint="@string/enter_password"
+                    android:textColorHint="#B19292"
+                    android:inputType="textPassword"
+                    android:fontFamily="@font/poppins_medium"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/red_password"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/input_line"/>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start|center"
+            android:layout_marginTop="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp">
+
+            <CheckBox
+                android:layout_width="70px"
+                android:layout_height="70px"
+                android:background="@drawable/checkbox"
+                android:layout_marginEnd="10dp"
+                android:button="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/i_agree"
+                android:textColor="#3D3D3D"
+                android:elegantTextHeight="true"
+                android:textSize="14sp"
+                android:fontFamily="@font/poppins_medium"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/terms"
+                android:textColor="#7F0308"
+                android:elegantTextHeight="true"
+                android:textSize="14sp"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/poppins_semibold"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/get_started_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/primary_button"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:text="@string/login"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:elevation="2dp"
+            android:textAllCaps="false"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/not_signed_up"
+                android:textColor="#3D3D3D"
+                android:elegantTextHeight="true"
+                android:textSize="14sp"
+                android:fontFamily="@font/poppins_medium"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_acc"
+                android:textColor="#7F0308"
+                android:elegantTextHeight="true"
+                android:textSize="14sp"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/poppins_semibold"/>
 
         </LinearLayout>
 

@@ -16,4 +16,6 @@
     <string name="create_password">Create password</string>
     <string name="confirm_password">Confirm password</string>
     <string name="signed_up_already">Signed up already?</string>
+    <string name="i_agree">I agree to the </string>
+    <string name="terms">terms + conditions.</string>
 </resources>
