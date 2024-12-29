@@ -48,9 +48,55 @@
             android:text="@string/login"
             android:textColor="#7F0308"
             android:fontFamily="@font/poppins_medium"
-            android:textSize="20sp"/>
+            android:textSize="25sp"
+            android:layout_marginBottom="10dp"/>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="start">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email_address"
+                android:textColor="#7F0308"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="18sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="start|center"
+                android:weightSum="10">
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="9"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:elegantTextHeight="true"
+                    android:hint="@string/enter_email"
+                    android:textColorHint="#B19292"
+                    android:fontFamily="@font/poppins_medium"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/red_email"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/input_line"/>
+
+        </LinearLayout>
 
     </LinearLayout>
 
