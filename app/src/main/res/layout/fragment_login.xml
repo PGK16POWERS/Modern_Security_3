@@ -65,6 +65,7 @@
                 android:text="@string/email_address"
                 android:textColor="#7F0308"
                 android:fontFamily="@font/poppins_regular"
+                android:elegantTextHeight="true"
                 android:textSize="18sp"/>
 
             <LinearLayout
@@ -84,6 +85,9 @@
                     android:hint="@string/enter_email"
                     android:inputType="textEmailAddress"
                     android:textColorHint="#B19292"
+                    android:textSize="16sp"
+                    android:textColor="#7F0308"
+                    android:background="@android:color/transparent"
                     android:fontFamily="@font/poppins_medium"/>
 
                 <ImageView
@@ -113,6 +117,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/password"
                 android:textColor="#7F0308"
+                android:elegantTextHeight="true"
                 android:fontFamily="@font/poppins_regular"
                 android:textSize="18sp"/>
 
@@ -133,6 +138,9 @@
                     android:hint="@string/enter_password"
                     android:textColorHint="#B19292"
                     android:inputType="textPassword"
+                    android:textSize="16sp"
+                    android:textColor="#7F0308"
+                    android:background="@android:color/transparent"
                     android:fontFamily="@font/poppins_medium"/>
 
                 <ImageView
@@ -160,8 +168,8 @@
             android:paddingEnd="5dp">
 
             <CheckBox
-                android:layout_width="70px"
-                android:layout_height="70px"
+                android:layout_width="25px"
+                android:layout_height="25px"
                 android:background="@drawable/checkbox"
                 android:layout_marginEnd="10dp"
                 android:button="@null"/>
@@ -172,7 +180,7 @@
                 android:text="@string/i_agree"
                 android:textColor="#3D3D3D"
                 android:elegantTextHeight="true"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 android:fontFamily="@font/poppins_medium"/>
 
             <TextView
@@ -181,7 +189,7 @@
                 android:text="@string/terms"
                 android:textColor="#7F0308"
                 android:elegantTextHeight="true"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 android:layout_marginStart="5dp"
                 android:fontFamily="@font/poppins_semibold"/>
 
@@ -213,7 +221,7 @@
                 android:text="@string/not_signed_up"
                 android:textColor="#3D3D3D"
                 android:elegantTextHeight="true"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 android:fontFamily="@font/poppins_medium"/>
 
             <TextView
@@ -221,9 +229,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/create_acc"
-                android:textColor="#7F0308"
+                android:textColor="#F84F66"
                 android:elegantTextHeight="true"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 android:layout_marginStart="5dp"
                 android:fontFamily="@font/poppins_semibold"/>
 

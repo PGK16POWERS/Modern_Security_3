@@ -86,6 +86,7 @@
                     android:inputType="textEmailAddress"
                     android:textColorHint="#B19292"
                     android:textSize="16sp"
+                    android:textColor="#7F0308"
                     android:background="@android:color/transparent"
                     android:fontFamily="@font/poppins_regular"/>
 
@@ -138,6 +139,8 @@
                     android:textColorHint="#B19292"
                     android:inputType="textPassword"
                     android:textSize="16sp"
+                    android:textColor="#7F0308"
+                    android:background="@android:color/transparent"
                     android:fontFamily="@font/poppins_regular"/>
 
                 <ImageView
@@ -189,6 +192,8 @@
                     android:textColorHint="#B19292"
                     android:inputType="textPassword"
                     android:textSize="16sp"
+                    android:textColor="#7F0308"
+                    android:background="@android:color/transparent"
                     android:fontFamily="@font/poppins_regular"/>
 
                 <ImageView
@@ -207,7 +212,7 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/get_started_button"
+            android:id="@+id/create_account_button"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:background="@drawable/primary_button"

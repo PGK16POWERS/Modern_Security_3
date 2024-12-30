@@ -5,6 +5,9 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
         <item name="android:fontFamily">@font/poppins_regular</item>
         <item name="android:statusBarColor">#F84F66</item>
+        <item name="statusBarScrim">#F84F66</item>
+        <item name="statusBarBackground">#F84F66</item>
+        <item name="statusBarForeground">#F84F66</item>
     </style>
 
     <style name="Theme.ModernSercurity3" parent="Base.Theme.ModernSercurity3" />
